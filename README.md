@@ -31,7 +31,7 @@ source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 
 3. Install dependencies using uv:
 ```bash
-uv pip install -e .
+uv sync
 ```
 
 4. Authenticate with your UiPath Automation Cloud account:
